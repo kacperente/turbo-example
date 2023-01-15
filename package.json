@@ -6,6 +6,7 @@
     "lint": "turbo run lint",
     "test": "turbo run dev:test",
     "test:e2e": "turbo run e2e:test",
+    "ci": "turbo run build e2e:test lint",
     "clean": "turbo run clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
